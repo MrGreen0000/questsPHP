@@ -1,9 +1,10 @@
 <?php
   $movie = 'Indiana Jones and une last Crusade';
-  $watchTheMovie = true;
+  $watchTheMovie = 'Yes, I watched this movie';
   $date= 1989;
   $noteImdb = 8.3;
-
-  echo $movie;
+ 
+  echo $movie . "\n"  . $watchTheMovie . " \n " . $date . " \n " . $noteImdb;
 
   ?>
+
