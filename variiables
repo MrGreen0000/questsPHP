@@ -1,0 +1,9 @@
+<?php
+  $movie = 'Indiana Jones and une last Crusade';
+  $watchTheMovie = true;
+  $date= 1989;
+  $noteImdb = 8.3;
+
+  echo $movie;
+
+  ?>
