@@ -1,0 +1,21 @@
+ <?php
+
+$movies['The adventures of the last ark'] = 1981;
+
+$movies['The cursed temple'] = 1984;
+
+$movies['The last crusade'] = 1988;
+
+
+//print_r($movies);
+
+ arsort($movies);
+var_dump($movies);
+foreach ($movies as $key => $value) {
+    
+    echo "{$value} => {$key} \n";
+    
+}
+
+
+  ?>
